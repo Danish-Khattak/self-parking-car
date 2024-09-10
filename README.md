@@ -5,8 +5,6 @@ This project aims to design a system for a self-parking car using a miniature 2W
 
 The project is built around the ATMEGA32A microcontroller and integrates several hardware components such as DC motors, IR obstacle sensors, ultrasonic sensors, and a 16x2 LCD for displaying the car's status.
 
-![Project Overview](./path-to-your-image) <!-- Add image path here -->
-
 ## Features
 - **Microcontroller**: ATMEGA32A
 - **Sensors**: 2 IR sensors and 1 Ultrasonic sensor
@@ -25,8 +23,6 @@ The project is built around the ATMEGA32A microcontroller and integrates several
 7. **DC Motors**: Used to drive the vehicle forward, backward, and for steering.
 8. **Breadboard and Wires**: For circuit assembly.
 
-![Hardware Components](./path-to-your-image) <!-- Add image path here -->
-
 ## Software Components
 The project is developed using **Atmel Studio**, employing a **finite state machine (FSM)** to manage different parking stages:
 - **IDLE**: The car remains stationary.
@@ -36,8 +32,6 @@ The project is developed using **Atmel Studio**, employing a **finite state mach
 - **PARKED**: The car is parked, and the process is complete.
 
 The code is written in **C** and is divided into different modules for sensor readings, motor control, and LCD display.
-
-![FSM Diagram](./path-to-your-image) <!-- Add image path here -->
 
 ## Results
 The project successfully demonstrated the concept of a self-parking car using a microcontroller. Although the system worked as intended in the early stages, some limitations arose due to power supply issues and unreliable motors over time.
@@ -55,8 +49,4 @@ This project showcased a simplified version of a real-world self-parking system 
 2. Use **Atmel Studio** to compile and upload the code to the ATMEGA32A microcontroller.
 3. Connect the hardware components as per the schematic.
 4. Power the system, and the vehicle will start searching for a parking space automatically.
-
-## Contributors
-- Muhammad Danish Khattak
-- Tahir Nadeem
 
